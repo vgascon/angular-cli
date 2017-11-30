@@ -13,4 +13,4 @@ RUN ng set --global packageManager=npm
 
 # install chromium for headless browser tests
 ENV CHROME_BIN=/usr/bin/chromium-browser
-RUN apk add --no-cache chromium udev ttf-freefont
+RUN apk add --no-cache chromium udev ttf-freefont git python build-base
